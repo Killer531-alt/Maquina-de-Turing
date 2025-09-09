@@ -1,8 +1,5 @@
 # Maquina-de-Turing
 
-from datetime import datetime
-
-readme_content = f"""\
 # Proyecto: Máquina de Turing Simulada en Python
 
 Este proyecto implementa una **simulación avanzada de una Máquina de Turing** en Python para realizar operaciones aritméticas básicas: **suma, resta, multiplicación, división, potenciación y raíz cuadrada**.
@@ -108,15 +105,6 @@ Este proyecto implementa una **simulación avanzada de una Máquina de Turing** 
 
 ---
 
-## Última actualización
 
-{datetime.today().strftime('%Y-%m-%d')}
-
-"""
-
-with open("README.txt", "w", encoding="utf-8") as file:
-    file.write(readme_content)
-
-print("README.txt generado correctamente.")
 
 
